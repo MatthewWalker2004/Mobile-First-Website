@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Course Content</title>
+<link rel="stylesheet" href="main.css">
+</head>
+
+
+<body>
+  <header>
+    <div class="header">
+        <h1>Course Content</h1>
+      <a href="https://shared.tle.courses.open.uwi.edu/course/view.php?idnumber=202220-SWEN1005"><img class="img" src="Uwi_Logo.jpg" align="right"></a>
+    </div>
+
+    <img id="open" class="open" onclick="openNav()" src="Icon.png" length="50px" width="50px">
+     
+    |<div class="nav" id="nav">
+      <img href="javascript:void(0)" class="close" onclick="closeNav()" src="XIcon.png" length="50px" width="50px">
+      <a href='HomePage.html'>Home Page</a>
+      <a href='CourseMaterial.html'>Course Material</a>
+      <a href="HomePage.html">If you are thinking of leaving,check out our other content first!</a>
+    
+    </div>
+
+  </header>
+    
+
+   
+<main>
+
+  <h1>The Course Content Consists of 5 Sections </h1>
+
+  <nav>
+      <a href ="Sectionone&two.html"> Section 1 & 2</a> |
+      <a href ="Section3.html"> Section 3</a> |
+      <a href ="Section4&5.html"> Section 4 & 5</a> |  <p>  click to view each section above</p> 
+  </nav>
+
+  <h5>Section 1: Utilise the latest web standards to create effective mobile
+      web applications.</h5>
+
+  <h5>Section 2: Compare and contrast the experience of native
+      applications with browser based / wrapped applications.</h5> 
+
+  <h5>Section 3: Design mobile web pages and web applications.</h5>
+
+  <h5>Section 4: Evaluate mobile web pages / mobile web applications.</h5>
+
+  <h5>Section 5: Mobile web development frameworks.</h5>
+
+<details>
+
+ <summary><h1>Fun Exercise !!!(Tap or Click me)</h1></summary>
+  <p><button onclick="clickCounter()" type="button">Click me!</button></p>
+  <div id="result"></div>
+  
+  <h5>Click the button to see the counter increase.</h5>
+  <h5>Close the browser tab (or window), and try again, and the counter will reset !</h5>
+  
+  
+  
+  <p><button onclick="clickCounter1()" type="button">Click me!</button></p>
+  <div id="result"></div>
+  <h5>Click the button to see the counter increase.</h5>
+  <h5>Close the browser tab (or window), and try again, and the counter will not reset !</h5>
+  
+</details>
+
+
+</main>
+
+   
+
+
+   <script src="main.js"> </script>
+
+</body>
+</html>

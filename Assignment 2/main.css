@@ -1,0 +1,94 @@
+.header{
+    text-align: center;
+    padding: 20px;
+    background-color: blue;
+    }
+
+body{
+  background-image: url('Backgroundcolor.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+
+}
+
+   .open{
+    color:white;
+    font: size 30px;
+  
+    float: left;
+    margin: 1em 0 0 1em;
+    display:block;
+    cursor:pointer;
+   }
+  
+   .nav{
+    width:0;
+    overflow-x:hidden;
+    height:100vh;
+    z-index:1;
+    position:fixed;
+    background-color: black;
+    transition:0.5s;
+    display:block;
+
+   }
+
+.nav a{
+  clear:left;
+  color:white;
+  font-size:22px;
+  display:block;
+  text-decoration: none;
+  padding: 1em 0;
+  transition: 0.3s
+}
+
+nav {
+    display:block;
+}
+
+.close{
+  float:left;
+  margin: 1em 0 0 1em;
+}
+
+.nav a:not(:first-child):hover {
+    background-color: blue;
+}
+
+table,th,td {
+  border: 1px solid black;
+}
+
+#div1, #div2 {
+    float: left;
+    width: 100px;
+    height: 35px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+  }
+
+  .img{
+    width: 100px;
+    height: 150px;
+  }
+
+  img{
+    width: 50px;
+    height: 50px;
+  }
+
+  @media only screen and (min-width:1200px){
+    
+    img{
+     width: 30px;
+     height: 30px;
+    }
+     .img{
+         width:100px;
+         height:100px;
+     }
+   }
+   
